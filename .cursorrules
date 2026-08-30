@@ -1,0 +1,12 @@
+# VTuber Hub Architecture Rules
+
+1. Security & Architecture
+   - Keep all recommendation and scraping logic inside Server Actions or API routes (`actions/`, `lib/`).
+   - NEVER expose secret keys or raw scraping algorithms to the client (`"use client"`).
+
+2. Optimization & Caching
+   - Always use Upstash Redis caching for live statuses and list outputs.
+   - Use external thumbnail URLs directly (Embeds) to save local storage.
+
+3. Tech Stack
+   - Next.js App Router, TypeScript, Tailwind CSS, Supabase, Upstash Redis.

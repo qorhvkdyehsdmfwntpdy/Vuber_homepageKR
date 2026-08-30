@@ -1,0 +1,18 @@
+{
+  "name": "VTuber Hub",
+  "short_name": "VTuber Hub",
+  "description": "실시간 방송 상태와 최신 콘텐츠를 확인하는 버튜버 디렉토리",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f1eb",
+  "theme_color": "#ee4635",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
